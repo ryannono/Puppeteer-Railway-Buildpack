@@ -1,6 +1,6 @@
 # puppeteer-railway-buildpack
 
-(Note: Railway adapted version of [Jon Tewksbury's heroku build pack](https://github.com/jontewks/puppeteer-heroku-buildpack/blob/main/README.md))
+(Note: This is a Railway adapted version of [Jon Tewksbury's heroku build pack](https://github.com/jontewks/puppeteer-heroku-buildpack/blob/main/README.md))
 
 Installs dependencies needed in order to run puppeteer on railway. Be sure to include `{ args: ['--no-sandbox', '--disable-setuid-sandbox'] }` and `ignoreDefaultArgs: ['--disable-extensions']` in your call to `puppeteer.launch`.
 
