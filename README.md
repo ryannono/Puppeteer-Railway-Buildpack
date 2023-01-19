@@ -10,7 +10,7 @@ Puppeteer defaults to `headless: true` in `puppeteer.launch` and this shouldn't 
 
 To use add the `nixpacks.toml` file to your root directory before deploying.
 
-This will make the railway nixpacks builder instal the needed chrome dependencies listed here:
+This will make the railway nixpacks builder install the needed chrome dependencies listed here:
 
 | Package | Size (mb) |
 | ------- | ---- |
