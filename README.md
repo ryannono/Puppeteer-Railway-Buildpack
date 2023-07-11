@@ -1,10 +1,10 @@
-# puppeteer-railway-buildpack
+# puppeteer-nixpacks-buildpack
 
-(Note: This is a Railway adapted version of [Jon Tewksbury's heroku build pack](https://github.com/jontewks/puppeteer-heroku-buildpack/blob/main/README.md))
+(Note: This is a Nixpacks adapted version of [Jon Tewksbury's heroku build pack](https://github.com/jontewks/puppeteer-heroku-buildpack/blob/main/README.md))
 
-Installs dependencies needed in order to run [puppeteer](https://github.com/puppeteer/puppeteer) on [railway](https://railway.app). Be sure to include `{ args: ['--no-sandbox', '--disable-setuid-sandbox'] }` and `ignoreDefaultArgs: ['--disable-extensions']` in your call to `puppeteer.launch`.
+Installs dependencies needed in order to run [puppeteer](https://github.com/puppeteer/puppeteer) with [nixpacks](https://nixpacks.com) on [railway](https://railway.app) or [hop](https://hop.io). Be sure to include `{ args: ['--no-sandbox', '--disable-setuid-sandbox'] }` and `ignoreDefaultArgs: ['--disable-extensions']` in your call to `puppeteer.launch`.
 
-Puppeteer defaults to `headless: true` in `puppeteer.launch` and this shouldn't be changed. Railway doesn't have a GUI to show you chrome when running `headless: false` and will throw an error.
+Puppeteer defaults to `headless: true` in `puppeteer.launch` and this shouldn't be changed. Nixpacks doesn't have a GUI to show you chrome when running `headless: false` and will throw an error.
 
 ## Usage
 
